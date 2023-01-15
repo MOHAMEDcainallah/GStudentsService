@@ -5,7 +5,7 @@ import ma.gstudents.student.models.Student;
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentService implements IStudentService{
+public class StudentServiceImpl implements IStudentService{
 List<Student> data = new ArrayList<Student>();
 public boolean create(Student s){
     System.out.println("service:creat:Student "+s);
